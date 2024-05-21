@@ -1,0 +1,64 @@
+:root {
+  --color-white: white;
+  --color-blue: #006ba6;
+}
+
+* {
+  margin: 0px;
+  font-family: Poppins, sans-serif;
+}
+
+row, .row {
+  margin: 0px;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+a:hover {
+  cursor: pointer;
+}
+
+img {
+  width: auto;
+  height: auto;
+  max-height: 100%;
+  max-width: 100%;
+}
+
+.section {
+  min-height: 80vh;
+}
+
+.header {
+  font-weight: bold;
+  font-family: Jost, sans-serif;
+}
+
+.service_list {
+}
+
+.service {
+}
+
+.service:hover {
+  cursor: pointer;
+}
+
+.service {
+  color: var(--bs-primary);
+  border: 1px solid rgba(13,110,253,0.5) ;
+}
+
+.tab_active {
+  background: linear-gradient(90deg, var(--bs-primary) 0%, #71aaff);
+  color: var(--color-white);
+}
+
+.tab_active img {
+  -webkit-filter: brightness(0) invert(1);
+  filter: brightness(0%) invert(1);
+}
+
